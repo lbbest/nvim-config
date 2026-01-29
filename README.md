@@ -9,16 +9,17 @@
 
 ```
 nvim/
-├── init.lua                    # Entry point
+├── init.lua                        # Entry point & bootstrap
 ├── lua/
 │   ├── config/
-│   │   ├── init.lua            # Requires all config files
-│   │   └── options.lua         # vim.opt settings
+│   │   ├── init.lua                # Requires all config files
+│   │   └── options.lua             # vim.opt settings
 │   └── plugins/
-│       ├── init.lua            # Plugin manager setup + requires
-│       ├── colorscheme.lua     # Theme config
-│       ├── gitsigns.lua        # Git integration
-│       └── indent.lua          # Indent guides
+│       ├── init.lua                # Plugin manager setup + requires
+│       ├── gruvbox.lua          
+│       ├── gitsigns.lua       
+│       ├── indent-blankline.lua
+│       └── ... other plugins
 ├── .gitignore
 └── lazy-lock.json
 ```
