@@ -1,0 +1,10 @@
+require("lazy").setup({
+  -- Gruvbox theme
+  require("plugins.gruvbox"),
+  
+  -- Gitsigns
+  require("plugins.gitsigns"),
+  
+  -- Indent Blankline
+  require("plugins.indent-blankline"),
+})
