@@ -7,4 +7,7 @@ require("lazy").setup({
   
   -- Indent Blankline
   require("plugins.indent-blankline"),
+
+  -- Mason
+  require("plugins.mason"),
 })
