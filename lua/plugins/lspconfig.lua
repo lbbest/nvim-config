@@ -6,6 +6,9 @@ return {
     opts = {
       ensure_installed = {
         "lua_ls",
+        "ts_ls",
+        "pyright",
+        "vue_ls"
       }
     },
     dependencies = {
@@ -20,6 +23,12 @@ return {
     config = function()
       -- Lua
       vim.lsp.config('lua_ls', {})
+      -- Typescript
+      vim.lsp.config('ts_ls', {})
+      -- Python
+      vim.lsp.config('pyright', {})
+      -- Vue
+      vim.lsp.config('vue_ls', {})
     end
   }
 }

@@ -8,7 +8,7 @@ return {
     "MunifTanjim/nui.nvim",
     "nvim-tree/nvim-web-devicons",
   },
-  lazy = false, 
+  lazy = false,
   config = function()
     -- Automatically show Neotree if opening directory
     vim.api.nvim_create_autocmd('VimEnter', {
