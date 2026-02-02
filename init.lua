@@ -17,25 +17,3 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("config")
-
--- Enable Treesitter highlighting
-vim.api.nvim_create_autocmd('FileType', {
-  pattern = { 
-    "lua",
-    "javascript",
-    "typescript",
-    "python",
-    "yaml",
-    "json",
-    "markdown",
-    "bash",
-    "vim",
-    "vimdoc",
-    "html",
-    "css",
-    "scss",
-    "tsx",
-    "vue",  
-  },
-  callback = function() vim.treesitter.start() end,
-})
