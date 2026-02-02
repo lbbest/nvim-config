@@ -6,6 +6,7 @@ vim.opt.expandtab = true
 vim.opt.clipboard = "unnamedplus" -- Cut/copy to system clipboard
 vim.opt.smartindent = true
 vim.opt.foldlevel = 99 -- Folds open by default
+vim.diagnostic.config({ virtual_text = true })
 
 -- Colorscheme (applied after plugins load)
 vim.o.background = "dark"

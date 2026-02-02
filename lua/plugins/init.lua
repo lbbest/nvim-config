@@ -8,8 +8,8 @@ require("lazy").setup({
   -- Indent Blankline
   require("plugins.indent-blankline"),
 
-  -- Mason
-  require("plugins.mason"),
+  -- LSP Config
+  require("plugins.lspconfig"),
 
   -- Telescope
   require("plugins.telescope"),
