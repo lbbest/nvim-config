@@ -11,6 +11,9 @@ vim.keymap.set('n', '<C-f>', builtin.live_grep, { desc = 'Telescope grep files' 
 -- Ctrl + n
 -- Toggle file tree
 vim.keymap.set('n', '<C-n>', ':Neotree toggle filesystem left<CR>')
+-- Ctrl + g
+-- Open git status
+vim.keymap.set('n', '<C-g>', ':Neotree toggle git_status float<CR>')
 
 -- Language Server
 -- Shift + k
